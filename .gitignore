@@ -1,0 +1,34 @@
+venv/
+
+__pycache__/
+*.pyc
+*.pyo
+
+MUDCAD-X/dataset/
+
+data/yolo/images/
+data/yolo/lwir/
+
+data/cnn/train/
+data/cnn/test/
+data/cnn/val/
+
+.ipynb_checkpoints/
+
+*.log
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+.venv/
+venv/
+
+# Python caches
+__pycache__/
+*.py[cod]
+
+# Temporary files
+*.log
+.DS_Store
